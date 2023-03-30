@@ -1,0 +1,37 @@
+[
+    {
+        "id": 0,
+        "p_name": "Ferrell Perry",
+        "img": "https://i.ibb.co/syTRmCN/My-project.jpg",
+        "spe": " is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+        "clas": "Class One: First Week Normal Exercise And three set push up"
+    },
+    {
+        "id": 1,
+        "p_name": "Bessie Ware",
+        "img": "https://i.ibb.co/c1h4B7x/My-project-1.jpg",
+        "spe": " is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+        "clas": "Class two: Second Week three set Weightlifting And three set push up"
+    },
+    {
+        "id": 2,
+        "p_name": "Lora Fox",
+        "img": "https://i.ibb.co/7Y87hR3/My-project-1.png",
+        "spe": " is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+        "clas": "Class two: Second Week three set Weightlifting And three set push up"
+    },
+    {
+        "id": 3,
+        "p_name": "Lora Fox",
+        "img": "https://i.ibb.co/LkrZ47p/My-project-2.jpg",
+        "spe": " is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+        "clas": "Class two: Second Week three set Weightlifting And three set push up"
+    },
+    {
+        "id": 4,
+        "p_name": "Lora Fox",
+        "img": "https://i.ibb.co/BVv9vH8/My-project-2.png",
+        "spe": " is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+        "clas": "Class two: Second Week three set Weightlifting And three set push up"
+    }
+]
