@@ -3,12 +3,13 @@ import { Link, useNavigate } from 'react-router-dom';
 import { useCreateUserWithEmailAndPassword } from 'react-firebase-hooks/auth';
 import auth from '../../firebese.init';
 import { toast } from 'react-toastify';
+import Signin from '../Signin/Signin';
 
 const Register = () => {
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
     const [name, setName] = useState('');
-    const [confirm, setConfirm] = useState('');
+
     const [agree, setAgree] = useState(false)
     const navigate = useNavigate();
 
@@ -23,9 +24,6 @@ const Register = () => {
     }
     const handlePassword = (e) => {
         setPassword(e.target.value);
-    }
-    const handleConfirm = (e) => {
-        setConfirm(e.target.value)
     }
 
     if (user) {
@@ -90,7 +88,6 @@ const Register = () => {
                             Confirm Password
                         </label>
                         <input
-                            onChange={handleConfirm}
                             className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
                             id="confirm-password"
                             type="password"
@@ -115,6 +112,7 @@ const Register = () => {
                             Register
                         </button>
                     </div>
+                    <Signin></Signin>
                 </form>
             </div >
 
